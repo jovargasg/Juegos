@@ -1,0 +1,66 @@
+/* Estilo del fondo del body */
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: sans-serif;
+    color: azure;
+
+}
+/* Estilo del elemento main */
+main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+/* Estilo del elemento section1 */
+.section1{
+    background-color: rgba(255,255,255,0.2 );
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+} 
+
+h1{
+    text-align: center;
+} 
+/* Estilo del elemento button */
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+/* Estilo del elemento button cuando se pasa el cursor encima */
+button:hover{
+    cursor: pointer;
+}
+/* Estilo del elemento section2 */
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+/* Estilo del elemento statistics */
+.statistics{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+/* Estilo del elemento footer */
+footer{
+    text-align: center;
+}
+/* Estilo del elemento a */
+a{
+    text-decoration: none;
+}
+/* Estilo del elemento img */
+img{
+    width: 80%;
+}
